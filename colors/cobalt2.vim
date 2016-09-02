@@ -42,13 +42,12 @@ hi Identifier ctermfg=220 ctermbg=NONE cterm=NONE guifg=#ffc600 guibg=NONE gui=N
 hi Keyword ctermfg=214 ctermbg=NONE cterm=NONE guifg=#ff9d00 guibg=NONE gui=NONE
 hi Label ctermfg=76 ctermbg=NONE cterm=NONE guifg=#35d900 guibg=NONE gui=NONE
 hi NonText ctermfg=220 ctermbg=23 cterm=NONE guifg=#ffc600 guibg=#1A3548 gui=NONE
-hi SpecialKey ctermfg=220 ctermbg=23 cterm=NONE guifg=#ffc600 guibg=#1A3548 gui=NONE
 hi EndOfBuffer ctermbg=220 ctermfg=23 guibg=bg guifg=#1A3548
 hi Number ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff628c guibg=NONE gui=NONE
 hi Operator ctermfg=214 ctermbg=NONE cterm=NONE guifg=#ff9d00 guibg=NONE gui=NONE
 hi PreProc ctermfg=214 ctermbg=NONE cterm=NONE guifg=#ff9d00 guibg=NONE gui=NONE
 hi Special ctermfg=15 ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
-hi SpecialKey ctermfg=220 ctermbg=59 cterm=NONE guifg=#ffc600 guibg=#30495b gui=NONE
+hi SpecialKey ctermfg=220 ctermbg=23 cterm=NONE guifg=#ffc600 guibg=#1A3548 gui=NONE
 hi Statement ctermfg=214 ctermbg=NONE cterm=NONE guifg=#ff9d00 guibg=NONE gui=NONE
 hi StorageClass ctermfg=220 ctermbg=NONE cterm=NONE guifg=#ffc600 guibg=NONE gui=NONE
 hi String ctermfg=76 ctermbg=NONE cterm=NONE guifg=#35d900 guibg=NONE gui=NONE
