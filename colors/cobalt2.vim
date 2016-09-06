@@ -56,6 +56,8 @@ hi Title ctermfg=15 ctermbg=NONE cterm=bold guifg=#ffffff guibg=NONE gui=bold
 hi Todo ctermfg=33 ctermbg=NONE cterm=inverse,bold guifg=#0088ff guibg=NONE gui=inverse,bold,italic
 hi Type ctermfg=220 ctermbg=NONE cterm=NONE guifg=#ffc600 guibg=NONE gui=NONE
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
+hi SignColumn ctermfg=220 ctermbg=23 cterm=NONE guifg=#ffc600 guibg=#1A3548 gui=NONE
+
 hi rubyClass ctermfg=214 ctermbg=NONE cterm=NONE guifg=#ff9d00 guibg=NONE gui=NONE
 hi rubyFunction ctermfg=220 ctermbg=NONE cterm=NONE guifg=#ffc600 guibg=NONE gui=NONE
 hi rubyInterpolationDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
