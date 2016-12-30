@@ -26,7 +26,7 @@ hi Folded ctermfg=33 ctermbg=23 cterm=NONE guifg=#0088ff guibg=#193549 gui=NONE
 hi Normal ctermfg=15 ctermbg=23 cterm=NONE guifg=#ffffff guibg=#193549 gui=NONE
 hi Boolean ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff628c guibg=NONE gui=NONE
 hi Character ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff628c guibg=NONE gui=NONE
-hi Comment ctermfg=33 ctermbg=NONE cterm=NONE guifg=#0088ff guibg=NONE gui=italic
+hi Comment ctermfg=33 ctermbg=NONE cterm=italic guifg=#0088ff guibg=NONE gui=italic
 hi Conditional ctermfg=214 ctermbg=NONE cterm=NONE guifg=#ff9d00 guibg=NONE gui=NONE
 hi Constant ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff628c guibg=NONE gui=NONE
 hi Define ctermfg=214 ctermbg=NONE cterm=NONE guifg=#ff9d00 guibg=NONE gui=NONE
@@ -57,6 +57,11 @@ hi Todo ctermfg=33 ctermbg=NONE cterm=inverse,bold guifg=#0088ff guibg=NONE gui=
 hi Type ctermfg=220 ctermbg=NONE cterm=NONE guifg=#ffc600 guibg=NONE gui=NONE
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 hi SignColumn ctermfg=220 ctermbg=23 cterm=NONE guifg=#ffc600 guibg=#1A3548 gui=NONE
+
+hi SpellBad ctermfg=231 ctermbg=88 cterm=underline guifg=#f8f8f8 guibg=#800f00 gui=undercurl
+hi SpellCap ctermfg=231 ctermbg=88 cterm=underline guifg=#f8f8f8 guibg=#800f00 gui=undercurl
+hi SpellRare ctermfg=231 ctermbg=88 cterm=underline guifg=#f8f8f8 guibg=#800f00 gui=undercurl
+hi SpellLocal ctermfg=231 ctermbg=88 cterm=underline guifg=#f8f8f8 guibg=#800f00 gui=undercurl
 
 hi rubyClass ctermfg=214 ctermbg=NONE cterm=NONE guifg=#ff9d00 guibg=NONE gui=NONE
 hi rubyFunction ctermfg=220 ctermbg=NONE cterm=NONE guifg=#ffc600 guibg=NONE gui=NONE
@@ -103,7 +108,7 @@ hi cssBraces ctermfg=195 ctermbg=NONE cterm=NONE guifg=#e1efff guibg=NONE gui=NO
 hi ColorColumn guifg=NONE guibg=#526776 gui=NONE
 hi Cursor guifg=#193549 guibg=#ffc600 gui=NONE
 hi CursorColumn guifg=NONE guibg=#1d425d gui=NONE
-hi CursorLine guifg=NONE guibg=#1d425d gui=NONE
+hi CursorLine ctermfg=NONE guifg=NONE guibg=#1d425d gui=NONE
 hi LineNr guifg=#8c9aa4 guibg=#193549 gui=NONE
 hi CursorLineNr guifg=#8c9aa4 guibg=#1d425d gui=NONE
 hi MatchParen guifg=#ff9d00 guibg=NONE gui=underline
@@ -123,6 +128,8 @@ hi link htmlH5 htmlH1
 hi link htmlH6 htmlH1
 hi htmlLink guifg=NONE guibg=NONE gui=NONE
 hi htmlSpecialTagName guifg=#ffc600 guibg=NONE gui=NONE
+hi htmlItalic guifg=NONE guibg=NONE gui=italic cterm=italic
+hi htmlBold guifg=NONE guibg=NONE gui=bold cterm=bold
 
 " JavaScript
 hi javaScriptFunction guifg=#ff80e1 guibg=NONE gui=NONE
