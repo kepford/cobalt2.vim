@@ -142,3 +142,22 @@ hi link twigVarDelim twigTagDelim
 hi twigString guifg=#35d900 guibg=NONE gui=NONE
 hi twigVariable guifg=#eeee80 guibg=NONE gui=NONE
 hi twigBlockName guifg=#cccccc guibg=#0d3a58 gui=NONE
+
+" Markdown
+hi markdownLinkText guifg=#2affdf guibg=NONE gui=NONE
+hi markdownLinkTextDelimiter guifg=#ffc600 guibg=NONE gui=NONE
+hi markdownUrl guifg=#9effff guibg=NONE gui=NONE
+hi markdownH1 guifg=#ffc600 guibg=NONE gui=bold cterm=bold
+hi markdownH1Delimiter guifg=#e1efff guibg=NONE gui=NONE
+hi link markdownH2 markdownH1
+hi link markdownH2Delimiter markdownH1Delimiter
+hi link markdownH3 markdownH1
+hi link markdownH3Delimiter markdownH1Delimiter
+hi link markdownH4 markdownH1
+hi link markdownH4Delimiter markdownH1Delimiter
+hi markdownBold guifg=#9effff guibg=NONE gui=bold cterm=bold
+hi markdownBoldDelimiter guifg=#e1efff guibg=NONE gui=NONE
+hi markdownListMarker guifg=#ffc600 guibg=NONE gui=bold cterm=bold
+hi markdownItalic guifg=#9effff guibg=NONE gui=italic cterm=italic
+hi link markdownItalicDelimiter markdownBoldDelimiter
+
