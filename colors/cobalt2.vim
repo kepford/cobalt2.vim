@@ -16,8 +16,10 @@ hi Visual ctermfg=NONE ctermbg=25 cterm=NONE guifg=NONE guibg=#0050a4 gui=NONE
 hi VertSplit ctermfg=60 ctermbg=60 cterm=NONE guifg=#5c707e guibg=#5c707e gui=NONE
 hi StatusLine ctermfg=15 ctermbg=60 cterm=bold guifg=#e1efff guibg=#5c707e gui=bold
 hi StatusLineNC ctermfg=15 ctermbg=60 cterm=NONE guifg=#e1efff guibg=#5c707e gui=NONE
-hi Pmenu ctermfg=220 ctermbg=NONE cterm=NONE guifg=#ffc600 guibg=NONE gui=NONE
-hi PmenuSel ctermfg=NONE ctermbg=25 cterm=NONE guifg=NONE guibg=#0050a4 gui=NONE
+hi Pmenu ctermfg=220 ctermbg=NONE cterm=NONE guifg=#aaaaaa guibg=#15232d gui=NONE
+hi PmenuSel ctermfg=NONE ctermbg=25 cterm=bold guifg=#ffc600 guibg=#0050a4 gui=bold
+hi PmenuSbar ctermfg=NONE ctermbg=25 cterm=NONE guifg=NONE guibg=#000000 gui=NONE
+hi PmenuThumb ctermfg=NONE ctermbg=25 cterm=NONE guifg=NONE guibg=#274561 gui=NONE
 hi IncSearch ctermfg=23 ctermbg=76 cterm=NONE guifg=#193549 guibg=#35d900 gui=NONE
 hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 hi Directory ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff628c guibg=NONE gui=NONE
