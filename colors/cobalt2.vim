@@ -167,7 +167,7 @@ hi twigVariable guifg=#eeee80 guibg=NONE gui=NONE
 hi twigBlockName guifg=#cccccc guibg=#0d3a58 gui=NONE
 
 " Markdown
-hi markdownLinkText guifg=#2affdf guibg=NONE gui=NONE
+hi markdownLinkText guifg=#aafa83 guibg=NONE gui=NONE
 hi markdownLinkTextDelimiter guifg=#ffc600 guibg=NONE gui=NONE
 hi markdownUrl guifg=#9effff guibg=NONE gui=NONE
 hi markdownH1 guifg=#ffc600 guibg=NONE gui=bold cterm=bold
