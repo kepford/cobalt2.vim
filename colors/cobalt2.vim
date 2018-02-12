@@ -183,6 +183,24 @@ hi markdownListMarker guifg=#ffc600 guibg=NONE gui=bold cterm=bold
 hi markdownItalic guifg=#9effff guibg=NONE gui=italic cterm=italic
 hi link markdownItalicDelimiter markdownBoldDelimiter
 
+" Git
+hi gitcommitBranch guifg=#eb4025 guibg=NONE gui=NONE
+hi gitcommitHeader guifg=#e1efff guibg=NONE gui=NONE
+hi gitcommitSelectedFile guifg=#aafa83 guibg=NONE gui=NONE
+hi link gitcommitDiscardedFile gitcommitHeader
+hi gitcommitFirstLine guifg=#e1efff guibg=NONE gui=NONE
+hi gitcommitSelectedType guifg=#e1efff guibg=NONE gui=bold
+hi gitcommitSummary guifg=#aafa83 guibg=NONE gui=NONE
+hi link gitcommitDiscardedType gitcommitSelectedType
+hi gitcommitDiff guifg=#e1efff guibg=NONE gui=NONE cterm=NONE
+hi diffAdded guifg=#35d900 guibg=NONE gui=NONE
+hi diffRemoved guifg=#eb4025 guibg=NONE gui=NONE
+hi link diffIndexLine Comment
+hi link diffSubname Comment
+hi diffLine guifg=#ff628c guibg=NONE gui=NONE
+hi diffIndexLine guifg=#e1efff guibg=NONE gui=NONE
+hi diffFile guifg=#ffc600 guibg=NONE gui=NONE cterm=NONE
+
 " XML
 hi link xmlTag htmlTag
 hi xmlTagName guifg=#aafa83 guibg=NONE gui=NONE
