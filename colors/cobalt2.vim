@@ -143,12 +143,14 @@ hi javaScriptFunction guifg=#ff80e1 guibg=NONE gui=NONE
 hi jsGlobalObjects guifg=#aafa83 guibg=NONE gui=NONE
 hi jsFunction guifg=#ee98fb guibg=NONE gui=NONE
 hi link jsnull Boolean
+hi link jsUndefined Boolean
 hi jsFuncParens guifg=#fdef89 guibg=NONE gui=NONE
 hi jsString guifg=#aafa83 guibg=NONE gui=NONE
 hi jsFuncCall guifg=#ffc600 guibg=NONE gui=NONE
 hi jsObjectKey guifg=#9effff guibg=NONE gui=NONE
 hi javaScriptFuncName guifg=#ffc600 guibg=NONE gui=NONE
 hi javaScriptBraces guifg=#e1efff guibg=NONE gui=NONE
+hi jsExportDefault guifg=#ff9d00 guibg=NONE gui=NONE
 
 "JSON
 hi jsonKeyword guifg=#ffc600 guibg=NONE gui=NONE
@@ -188,3 +190,4 @@ hi link markdownItalicDelimiter markdownBoldDelimiter
 hi link xmlTag htmlTag
 hi xmlTagName guifg=#aafa83 guibg=NONE gui=NONE
 hi xmlEndTag guifg=#aafa83 guibg=NONE gui=NONE
+hi link xmlString xmlTagName
