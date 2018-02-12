@@ -108,7 +108,7 @@ hi cssBraces ctermfg=195 ctermbg=NONE cterm=NONE guifg=#e1efff guibg=NONE gui=NO
 hi ColorColumn guifg=NONE guibg=#526776 gui=NONE
 hi Cursor guifg=#193549 guibg=#ffc600 gui=NONE
 hi CursorColumn guifg=NONE guibg=#1d425d gui=NONE
-hi CursorLine ctermfg=NONE guifg=NONE guibg=#1d425d gui=NONE
+hi CursorLine term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE guifg=NONE guibg=#1F4662 gui=NONE
 hi LineNr guifg=#8c9aa4 guibg=#193549 gui=NONE
 hi CursorLineNr guifg=#8c9aa4 guibg=#1d425d gui=NONE
 hi MatchParen guifg=#ff9d00 guibg=NONE gui=underline
