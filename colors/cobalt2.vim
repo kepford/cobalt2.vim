@@ -114,10 +114,11 @@ hi CursorLineNr guifg=#8c9aa4 guibg=#1d425d gui=NONE
 hi MatchParen guifg=#ff9d00 guibg=NONE gui=underline
 
 " HTML
-hi htmlTagN guifg=#ffffff guibg=NONE gui=NONE
-hi htmlEndTag guifg=#ffffff guibg=NONE gui=NONE
+hi htmlTag guifg=#e1efff guibg=NONE gui=NONE
+hi htmlTagN guifg=#e1efff guibg=NONE gui=NONE
+hi htmlEndTag guifg=#e1efff guibg=NONE gui=NONE
 hi htmlTagName guifg=#9effff guibg=NONE gui=NONE
-hi htmlArg guifg=#9effff guibg=NONE gui=NONE
+hi htmlArg guifg=#ffc600 guibg=NONE gui=NONE
 hi htmlSpecialChar guifg=#ff628c guibg=NONE gui=NONE
 hi htmlTitle guifg=NONE guibg=NONE gui=NONE
 hi htmlH1 guifg=NONE guibg=NONE gui=NONE
@@ -130,11 +131,28 @@ hi htmlLink guifg=NONE guibg=NONE gui=NONE
 hi htmlSpecialTagName guifg=#ffc600 guibg=NONE gui=NONE
 hi htmlItalic guifg=NONE guibg=NONE gui=italic cterm=italic
 hi htmlBold guifg=NONE guibg=NONE gui=bold cterm=bold
+hi htmlString guifg=#aafa83 guibg=NONE gui=NONE
 
 " JavaScript
 hi javaScriptFunction guifg=#ff80e1 guibg=NONE gui=NONE
+hi jsGlobalObjects guifg=#aafa83 guibg=NONE gui=NONE
+hi jsFunction guifg=#ee98fb guibg=NONE gui=NONE
+hi link jsnull Boolean
+hi jsFuncParens guifg=#fdef89 guibg=NONE gui=NONE
+hi jsString guifg=#aafa83 guibg=NONE gui=NONE
+hi jsFuncCall guifg=#ffc600 guibg=NONE gui=NONE
+hi jsObjectKey guifg=#9effff guibg=NONE gui=NONE
 hi javaScriptFuncName guifg=#ffc600 guibg=NONE gui=NONE
 hi javaScriptBraces guifg=#ffffff guibg=NONE gui=NONE
+
+"JSON
+hi jsonKeyword guifg=#ffc600 guibg=NONE gui=NONE
+hi jsonString guifg=#aafa83 guibg=NONE gui=NONE
+hi jsonQuote guifg=#e1efff guibg=NONE gui=NONE
+hi link JsonBraces jsonQuote
+
+" JSX
+hi jsxRegion guifg=#aafa83 guibg=NONE gui=NONE
 
 " Twig
 hi twigTagDelim guifg=NONE guibg=NONE gui=NONE
@@ -161,3 +179,7 @@ hi markdownListMarker guifg=#ffc600 guibg=NONE gui=bold cterm=bold
 hi markdownItalic guifg=#9effff guibg=NONE gui=italic cterm=italic
 hi link markdownItalicDelimiter markdownBoldDelimiter
 
+" XML
+hi link xmlTag htmlTag
+hi xmlTagName guifg=#aafa83 guibg=NONE gui=NONE
+hi xmlEndTag guifg=#aafa83 guibg=NONE gui=NONE
