@@ -14,8 +14,8 @@ let g:colors_name = "cobalt2"
 
 hi Visual ctermfg=NONE ctermbg=25 cterm=NONE guifg=NONE guibg=#0050a4 gui=NONE
 hi VertSplit ctermfg=60 ctermbg=60 cterm=NONE guifg=#5c707e guibg=#5c707e gui=NONE
-hi StatusLine ctermfg=15 ctermbg=60 cterm=bold guifg=#ffffff guibg=#5c707e gui=bold
-hi StatusLineNC ctermfg=15 ctermbg=60 cterm=NONE guifg=#ffffff guibg=#5c707e gui=NONE
+hi StatusLine ctermfg=15 ctermbg=60 cterm=bold guifg=#e1efff guibg=#5c707e gui=bold
+hi StatusLineNC ctermfg=15 ctermbg=60 cterm=NONE guifg=#e1efff guibg=#5c707e gui=NONE
 hi Pmenu ctermfg=220 ctermbg=NONE cterm=NONE guifg=#ffc600 guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=25 cterm=NONE guifg=NONE guibg=#0050a4 gui=NONE
 hi IncSearch ctermfg=23 ctermbg=76 cterm=NONE guifg=#193549 guibg=#35d900 gui=NONE
@@ -23,17 +23,17 @@ hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=un
 hi Directory ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff628c guibg=NONE gui=NONE
 hi Folded ctermfg=33 ctermbg=23 cterm=NONE guifg=#0088ff guibg=#193549 gui=NONE
 
-hi Normal ctermfg=15 ctermbg=23 cterm=NONE guifg=#ffffff guibg=#193549 gui=NONE
+hi Normal ctermfg=15 ctermbg=23 cterm=NONE guifg=#e1efff guibg=#193549 gui=NONE
 hi Boolean ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff628c guibg=NONE gui=NONE
 hi Character ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff628c guibg=NONE gui=NONE
 hi Comment ctermfg=33 ctermbg=NONE cterm=italic guifg=#0088ff guibg=NONE gui=italic
 hi Conditional ctermfg=214 ctermbg=NONE cterm=NONE guifg=#ff9d00 guibg=NONE gui=NONE
 hi Constant ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff628c guibg=NONE gui=NONE
 hi Define ctermfg=214 ctermbg=NONE cterm=NONE guifg=#ff9d00 guibg=NONE gui=NONE
-hi DiffAdd ctermfg=15 ctermbg=64 cterm=bold guifg=#ffffff guibg=#438613 gui=bold
+hi DiffAdd ctermfg=15 ctermbg=64 cterm=bold guifg=#e1efff guibg=#438613 gui=bold
 hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#880b0f guibg=NONE gui=NONE
-hi DiffChange ctermfg=15 ctermbg=23 cterm=NONE guifg=#ffffff guibg=#1c4068 gui=NONE
-hi DiffText ctermfg=15 ctermbg=24 cterm=bold guifg=#ffffff guibg=#204a87 gui=bold
+hi DiffChange ctermfg=15 ctermbg=23 cterm=NONE guifg=#e1efff guibg=#1c4068 gui=NONE
+hi DiffText ctermfg=15 ctermbg=24 cterm=bold guifg=#e1efff guibg=#204a87 gui=bold
 hi ErrorMsg ctermfg=231 ctermbg=88 cterm=NONE guifg=#f8f8f8 guibg=#800f00 gui=NONE
 hi WarningMsg ctermfg=231 ctermbg=88 cterm=NONE guifg=#f8f8f8 guibg=#800f00 gui=NONE
 hi Float ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff628c guibg=NONE gui=NONE
@@ -46,13 +46,13 @@ hi EndOfBuffer ctermbg=220 ctermfg=23 guibg=bg guifg=#1A3548
 hi Number ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff628c guibg=NONE gui=NONE
 hi Operator ctermfg=214 ctermbg=NONE cterm=NONE guifg=#ff9d00 guibg=NONE gui=NONE
 hi PreProc ctermfg=214 ctermbg=NONE cterm=NONE guifg=#ff9d00 guibg=NONE gui=NONE
-hi Special ctermfg=15 ctermbg=NONE cterm=NONE guifg=#ffffff guibg=NONE gui=NONE
+hi Special ctermfg=15 ctermbg=NONE cterm=NONE guifg=#e1efff guibg=NONE gui=NONE
 hi SpecialKey ctermfg=220 ctermbg=23 cterm=NONE guifg=#ffc600 guibg=#1A3548 gui=NONE
 hi Statement ctermfg=214 ctermbg=NONE cterm=NONE guifg=#ff9d00 guibg=NONE gui=NONE
 hi StorageClass ctermfg=220 ctermbg=NONE cterm=NONE guifg=#ffc600 guibg=NONE gui=NONE
 hi String ctermfg=76 ctermbg=NONE cterm=NONE guifg=#35d900 guibg=NONE gui=NONE
 hi Tag ctermfg=220 ctermbg=NONE cterm=NONE guifg=#ffc600 guibg=NONE gui=NONE
-hi Title ctermfg=15 ctermbg=NONE cterm=bold guifg=#ffffff guibg=NONE gui=bold
+hi Title ctermfg=15 ctermbg=NONE cterm=bold guifg=#e1efff guibg=NONE gui=bold
 hi Todo ctermfg=33 ctermbg=NONE cterm=inverse,bold guifg=#0088ff guibg=NONE gui=inverse,bold,italic
 hi Type ctermfg=220 ctermbg=NONE cterm=NONE guifg=#ffc600 guibg=NONE gui=NONE
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
@@ -148,7 +148,7 @@ hi jsString guifg=#aafa83 guibg=NONE gui=NONE
 hi jsFuncCall guifg=#ffc600 guibg=NONE gui=NONE
 hi jsObjectKey guifg=#9effff guibg=NONE gui=NONE
 hi javaScriptFuncName guifg=#ffc600 guibg=NONE gui=NONE
-hi javaScriptBraces guifg=#ffffff guibg=NONE gui=NONE
+hi javaScriptBraces guifg=#e1efff guibg=NONE gui=NONE
 
 "JSON
 hi jsonKeyword guifg=#ffc600 guibg=NONE gui=NONE
