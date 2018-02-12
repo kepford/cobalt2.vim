@@ -158,9 +158,6 @@ hi jsonString guifg=#aafa83 guibg=NONE gui=NONE
 hi jsonQuote guifg=#e1efff guibg=NONE gui=NONE
 hi link JsonBraces jsonQuote
 
-" JSX
-hi jsxRegion guifg=#aafa83 guibg=NONE gui=NONE
-
 " Twig
 hi twigTagDelim guifg=NONE guibg=NONE gui=NONE
 hi link twigVarDelim twigTagDelim
