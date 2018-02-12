@@ -113,6 +113,11 @@ hi LineNr guifg=#8c9aa4 guibg=#193549 gui=NONE
 hi CursorLineNr guifg=#8c9aa4 guibg=#1d425d gui=NONE
 hi MatchParen guifg=#ff9d00 guibg=NONE gui=underline
 
+" netrw
+hi netrwDir guifg=#ffc600 guibg=NONE gui=bold
+hi netrwPlain guifg=#e1efff guibg=NONE gui=NONE
+hi link netrwTreeBar netrwPlain
+
 " HTML
 hi htmlTag guifg=#e1efff guibg=NONE gui=NONE
 hi htmlTagN guifg=#e1efff guibg=NONE gui=NONE
