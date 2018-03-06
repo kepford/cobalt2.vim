@@ -52,7 +52,7 @@ hi Special ctermfg=15 ctermbg=NONE cterm=NONE guifg=#e1efff guibg=NONE gui=NONE
 hi SpecialKey ctermfg=220 ctermbg=23 cterm=NONE guifg=#ffc600 guibg=#1A3548 gui=NONE
 hi Statement ctermfg=214 ctermbg=NONE cterm=NONE guifg=#ff9d00 guibg=NONE gui=NONE
 hi StorageClass ctermfg=220 ctermbg=NONE cterm=NONE guifg=#ffc600 guibg=NONE gui=NONE
-hi String ctermfg=76 ctermbg=NONE cterm=NONE guifg=#35d900 guibg=NONE gui=NONE
+hi String ctermfg=76 ctermbg=NONE cterm=NONE guifg=#aafa83 guibg=NONE gui=NONE
 hi Tag ctermfg=220 ctermbg=NONE cterm=NONE guifg=#ffc600 guibg=NONE gui=NONE
 hi Title ctermfg=15 ctermbg=NONE cterm=bold guifg=#e1efff guibg=NONE gui=bold
 hi Todo ctermfg=33 ctermbg=NONE cterm=inverse,bold guifg=#0088ff guibg=NONE gui=inverse,bold,italic
@@ -184,6 +184,8 @@ hi markdownBoldDelimiter guifg=#e1efff guibg=NONE gui=NONE
 hi markdownListMarker guifg=#ffc600 guibg=NONE gui=bold cterm=bold
 hi markdownItalic guifg=#9effff guibg=NONE gui=italic cterm=italic
 hi link markdownItalicDelimiter markdownBoldDelimiter
+hi link markdownCode markdownLinkText
+hi link markdownCodeDelimiter markdownLinkTextDelimiter
 
 " Git
 hi gitcommitBranch guifg=#eb4025 guibg=NONE gui=NONE
@@ -202,6 +204,15 @@ hi link diffSubname Comment
 hi diffLine guifg=#ff628c guibg=NONE gui=NONE
 hi diffIndexLine guifg=#e1efff guibg=NONE gui=NONE
 hi diffFile guifg=#ffc600 guibg=NONE gui=NONE cterm=NONE
+
+" PHP
+hi phpFunctions guifg=#ff9d00 guibg=NONE gui=NONE
+hi phpFunctionsTag guifg=#9effff guibg=NONE gui=NONE
+hi phpVarSelector guifg=#e1efff guibg=NONE gui=NONE
+hi link phpMethodsVar phpFunctionsTag
+hi link phpMemberSelector phpFunctions
+hi link doxygenSpecialMultilineDesc Comment
+hi link doxygenParam phpMemberSelector
 
 " XML
 hi link xmlTag htmlTag
